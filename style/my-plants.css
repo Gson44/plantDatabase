@@ -1,0 +1,31 @@
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+a {
+    
+    color: yellow;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+table {
+    margin: auto;
+    color:white;
+    width: 100%;
+    
+}
+tr {
+    font-size: 32px;
+    
+}
+
+table, th, td {
+  border: 1px solid;
+}
+tr:nth-child(even) {background-color: #3d024e;}
+tr:nth-child(odd) {background-color: #00416a;}
